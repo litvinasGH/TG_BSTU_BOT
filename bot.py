@@ -14,8 +14,8 @@ logging.basicConfig(level=logging.INFO)
 
 # ----------------- CONFIG -----------------
 
-with open("token.txt", "r", encoding="utf-8") as f:
-    TOKEN = f.read().strip()
+TOKEN = os.getenv("8485267029:AAF6bkEQpqPXdzm34nBngZhHzUzYYtdnSbg")
+
 
 STORAGE_FILE = "storage.json"
 
